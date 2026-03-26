@@ -7,7 +7,7 @@ Uses finnhub api, postgreSQL and python to create a live webapp on Azure
 
 
 
-Project Process:
+# Project Process:
 I started this project locally before moving it to Azure, which is why I use streamlit instead of a power bi dashboard. 
 I used the free finnhub api to get data in json form into stock_streaming.py and use python to 'clean' the data and put it in the postgreSQL
 database. Within the database, created views and stored procedures to either analyze the data(view) or change the data(stored procedure).
